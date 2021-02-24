@@ -3,8 +3,8 @@ import ContactList from './ContactList';
 import axios from 'axios';
 
 class AddContact extends React.Component{
-    constructor(){
-        super()
+    constructor(props){
+        super(props)
 
         this.state={
             contactId : "", 
