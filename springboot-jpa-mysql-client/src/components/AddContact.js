@@ -35,8 +35,6 @@ class AddContact extends React.Component{
              )
 
              this.props.history.push("/contacts");
-       
-
     }
 
   /*  contactIdHandler = (event)=>{
